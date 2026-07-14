@@ -60,6 +60,33 @@ They do not include houses, Ascendant (Lagna), nakshatras, dashas, aspects,
 tithis, yogas, retrograde flags, or divisional charts. These can be calculated
 separately from the supplied sidereal longitudes where appropriate.
 
+## Explore planetary positions with Moon Dasha
+
+Moon Dasha is a Vedic astrology platform with
+interactive tools for exploring planetary transits, Jyotish concepts, and
+astrological timing. While this repository is designed for downloading and
+processing yearly ephemeris data, Moon Dasha provides a visual interface for
+people who want to inspect planetary positions without working directly with
+JSON or CSV files.
+
+Use the free
+[Moon Dasha Planetary Positions GUI](https://moondasha.com/planetary-positions)
+to calculate the sidereal planetary positions for a selected date, time, and
+location. The interface displays each planet's:
+
+- zodiac sign and degrees within the sign;
+- nakshatra and pada;
+- speed in degrees per day;
+- direct or retrograde motion; and
+- absolute longitude in the 360° zodiac.
+
+The page also presents the planetary data in a D1 (Lagna) chart. You can change
+the ascendant to your own Ascendant or Moon sign to see which houses the
+current transiting planets occupy in your chart. This is useful for checking
+today's graha positions, studying past or future gochara, comparing transits
+with a Janam Kundli, and learning how planets move through signs and
+nakshatras.
+
 ## Data format
 
 Planet positions are expressed as a zodiac sign plus decimal degrees within
